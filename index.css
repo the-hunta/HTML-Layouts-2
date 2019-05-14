@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box
+    }
+    
+    body {
+        font-family: 'Open Sans', sans-serif;
+        border: 15px solid rgb(223, 223, 252);
+
+
+    }
+
+    #logo {
+        font-size: 15pt;
+
+    }
+
+    #sub {
+        background: rgb(27, 27, 172);
+        padding: 5px 20px ; 
+        height: 30px;
+        color: white;
+        border-radius: 45px;
+
+    }
+
+    #smallBox {
+        background: black;
+        color: white;
+        height: 30px;
+        width: 50px;
+        padding: 10px;
+        font-size: 15pt;
+
+    }
+
+
+    header {
+        height: 160px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 40px;
+    }
+    
+    div {
+        height: 80vh;
+        width: 90vw;
+        background: rgb(223, 225, 252);
+        position: relative;
+        left: 90px;
+        display: flex;
+
+    }
+
+    #middleTopSection{
+        font-size: 50px;
+        display: flex;
+        flex-direction: column;
+        /* background: red; */
+        position: relative;
+        left: 180px;
+        top: 120px;
+        height: 500px;
+        width: 440px;
+        font-weight:700;
+    }
+
+    #middleTopSection > p {
+        margin: 0;
+    }
+
+    #middleCenterSection{
+        font-size: 15px;
+        width: 340px;
+    }
+
+    nav > a {
+        margin-left: 80px;
+        text-decoration: none;
+        color: inherit;
+        font-size: 8pt;
+    }
+
+    #viewReport{
+        text-decoration: none;
+        background: rgb(27, 27, 172);
+        padding: 5px 20px; 
+        height: 50px;
+        width: 160px;
+        color: white;
+        border-radius: 45px;
+        font-size: 9pt;
+        text-align: center;
+        position: relative;
+        top: 10px;
+    }
+    
+    img {
+        height: 450px;
+        width: 450px;
+        position: relative;
+        left: 250px;
+        top: 55px;
+
+
+    }
